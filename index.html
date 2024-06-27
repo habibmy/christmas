@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Merry Christmas</title>
+  </head>
+  <body>
+    <div class="main-div">
+      <img
+        class="christmas-tree"
+        height="300px"
+        width="auto"
+        src="/media/christmas-tree.png"
+        alt="Merry Christmas"
+      />
+      <h1 class="main-h1">Merry Christmas</h1>
+      <h2 class="name">Habib</h2>
+      <p class="sub-text">
+        Surprise your friends with christmas gifts and the extent of love
+        between you
+      </p>
+      <button class="share-btn">Share on WhatsApp</button>
+    </div>
+  </body>
+  <style>
+    body {
+      margin: 0;
+      background-color: #ecefff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Rubik, sans-serif;
+    }
+    .main-div {
+      text-align: center;
+      max-width: 400px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .christmas-tree {
+      animation: christmas-tree 1s infinite;
+    }
+    .main-h1 {
+      font-size: 3rem;
+      color: #000000;
+      margin-bottom: 0;
+    }
+    .name {
+      font-size: 2rem;
+      color: #000000;
+      margin-top: 0;
+    }
+    .sub-text {
+      font-size: 1.2rem;
+      color: #000000;
+      opacity: 0.5;
+    }
+    .share-btn {
+      background-color: #677bff;
+      color: #ffffff;
+      border: none;
+      font-size: 1.2rem;
+      border-radius: 50px;
+      padding: 15px;
+      margin: 20px;
+      margin-top: 20px;
+      cursor: pointer;
+      width: 100%;
+    }
+    @keyframes christmas-tree {
+      0% {
+        transform: rotate(0deg);
+      }
+      50% {
+        transform: rotate(10deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+  </style>
+</html>
